@@ -27,7 +27,6 @@ public class Main {
         System.out.println("\nEx5:");
         int[][]square = new int[6][6];
         int[][] Diagonal = ArrayDiagonal(square);
-        System.out.println(square==Diagonal);
         for(int rows = 0; rows < Diagonal.length; rows++)
             System.out.println(Arrays.toString(Diagonal[rows]));
 
